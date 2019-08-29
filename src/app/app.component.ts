@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'IVAN JULIAN GUERRA CORDOBA';
-  correo= 'ivanj.guerrac@unilibrebog.edu.co';
+  correo = 'ivanj.guerrac@unilibrebog.edu.co';
+  planetas: any = [
+    { activo: true, nombre: 'Colombia', },
+    { activo: true, nombre: 'Brasil', },
+    { activo: true, nombre: 'Argentina', },
+    { activo: false, nombre: 'Polonia', },
+    { activo: false, nombre: 'Alemania', },
+    { activo: true, nombre: 'Francia', }
+  ]
 }
